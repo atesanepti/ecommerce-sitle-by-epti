@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <title>Slow Store Online Market</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row header-block">
+                <a href="#"><h1>slow stroe</h1></a>
+                <div class="header__menu" id="header__menu">
+                    <ul>
+                        <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                        <li><a href="#intro" class="home__menu">home</a></li>
+                        <li><a href="#Product">Product</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#footer">contact us</a></li>
+                        <li class="sinupbtn">
+                            
+                            <a href="#" class="sinup__icon">sinup</a>
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        
+                        </li>
+                        <button>sinup</button>
+
+                    </ul>
+        
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <div class="row intro-block">
+                <form action="">
+                    <input type="text" placeholder="Find Your Favorite..">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            
+                <h1 >welcome to</h1>
+                 <h1 class="your__text">your </h1>
+                 <h1> store</h1> 
+                <p>welcome to your and my store. it is a famous <br> department store in new york. your shopping will be done  <br> at home</p>
+            </div>
+            <div class="facebook__icon">
+                <a href="http://www.facebook.com/EptiNehal">
+                    <img src="../image/facebook-icon.png" alt="">
+                </a>
+               
+            </div>
+        </div>
+    </section>
+    <section id="Product">
+        <div class="container">
+            <div class="product-title">
+                <h1>product</h1>
+                <p>find and buy the product you want.</p>
+            </div>
+            <div class="product-content">
+                <div class="product__single__box">
+                    <img src="../image/product1.jpg" alt="">
+                    <span>nike free lite red shoes 25.</span>
+                    <span> <del>60$</del> 45$</span>
+                    <a href="#">buy now<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="product__single__box">
+                    <img src="../image/product2 .jpg" alt="">
+                    <span>leather bag 2xp modele free ff.</span>
+                    <span> <del>20$</del> 15$</span>
+                    <a href="#">buy now<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="product__single__box">
+                    <img src="../image/product3.jpg" alt="">
+                    <span>temperature control device.</span>
+                    <span> <del>70$</del> 55$</span>
+                    <a href="#">buy now<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="product__single__box">
+                    <img src="../image/product4.jpg" alt="">
+                    <span>Pre fiber bottle 2L 1pitch carry.</span>
+                    <span> <del>10$</del> 5$</span>
+                    <a href="#">buy now<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="product__single__box">
+                    <img src="../image/product5.jpg" alt="">
+                    <span>Rollex wrist watch master pro.</span>
+                    <span> <del>70$</del> 40$</span>
+                    <a href="#">buy now<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+            </div>
+            <div class="product-button">
+                <a href="index2.html"><button >more product<i class="fa-solid fa-arrow-right"></i></button></a>
+                
+            </div>
+            
+           
+            
+        </div>
+    </section>
+
+    <section id="discount">
+        <div class="container">
+            <div class="discount-title">
+                <h1>best discount</h1>
+                <p>choose your offer</p>
+            </div>
+            <div class="discount-content row">
+                <div class="discount-content__single__box">
+                    <h1> 5$ <del>off</del></h1>
+                    <span> min spend 30$</span>
+                    <span>january 1 2023 - january 1 2024</span>
+                    
+                    <button id="colloct_btn_1" onclick="clicked()">colloct</button>
+                </div>
+                <div class="discount-content__single__box">
+                    <h1> 15$ <del>off</del></h1>
+                    <span> min spend 60$</span>
+                    <span>january 1 2023 - january 1 2024</span>
+                    
+                    <button id="colloct_btn_2" onclick="clicked_2()">colloct</button>
+                </div>
+                <div class="discount-content__single__box last__box">
+                    <h1> 30% <del>off</del></h1>
+                    <span> min spend 150$</span>
+                    <span>january 1 2023 - january 1 2024</span>
+                    <button id="colloct_btn_3" onclick="clicked_3()">colloct</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="subscription">
+        <div class="container">
+            <div class="subscription-title">
+                <h1>subscription</h1>
+                <p>get unlimited shopping with our weekly,monthly and yearly membership</p>
+            </div>
+            <div class="subscription-content">
+                <div class="subscription-content__single__box">
+                    <h1><i class="fa-solid fa-cart-shopping"></i>weekly subscription</h1>
+                    <ul>
+                        <li>7 days of unlimited shopping time.</li>
+                        <li>delivery charges 5% free.</li>
+                        <li>1 account will support.</li>
+                        <li>product connot be returned.</li>
+                        <li>24 hours service will be open.</li>
+                        <li>delivery within 2 to 5 days.</li>
+                        <li>only in new york</li>
+                    </ul>
+                    <button>subscirbe now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="subscription-content__single__box">
+                    <h1><i class="fa-solid fa-cart-shopping"></i>mouthly subscription</h1>
+                    <ul>
+                        <li>30 days of unlimited shopping.</li>
+                        <li>delivery charges 10% free.</li>
+                        <li>1 account will support.</li>
+                        <li>product connot be returned.</li>
+                        <li>24 hours service will be open.</li>
+                        <li>delivery within 2 to 3 days.</li>
+                        <li>only in new york</li>
+                    </ul>
+                    <button>subscirbe now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="subscription-content__single__box">
+                    <h1><i class="fa-solid fa-cart-shopping"></i>yearly subscription</h1>
+                    <ul>
+                        <li>365 days of unlimited shopping.</li>
+                        <li>delivery charges 25% free.</li>
+                        <li>2 account will support.</li>
+                        <li>product con be returned.</li>
+                        <li>24 hours service will be open.</li>
+                        <li>delivery within 1 days.</li>
+                        <li>only in new york</li>
+                    </ul>
+                    <button>subscirbe now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="about-title">
+                <h1>About Store</h1>
+                <p>leartn more about ure store</p>
+            </div>
+            <div class="about-store-info">
+                <img src="../image/aboutshore.jpg" alt="">
+                <div class="about-store-info__text">
+                    <h1>some features :</h1>
+                    <ul>
+                        <li>our store is one of the most popular <br> store in new york.</li>
+                        <li>alhough it is a business enterprise,  it also a <br>social enterprise.</li>
+                        <li>we have earned a great reputation for treation our<br> customers well.</li>
+                        <li>our company provides equal services both online<br> and offline.</li>
+                        <li>so our company can be the best for you.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="user-rating">
+        <div class="container">
+            <div class="user-rating-title">
+                <h1>ueser rating</h1>
+                <p>check out our user rating</p>
+            </div>
+            <div class="user-rating-content">
+                <div class="user-rating-content__single__box u--r--sb--f">
+                    <div class="u-r-c__sb__div1">
+                        <div class="u-r-c__sb__div2">
+                            <span>99%</span>
+                        </div>
+                        <svg>
+                            <circle/>
+                        </svg>
+                    </div>
+                    <h1>product</h1>
+                </div>
+                <div class="user-rating-content__single__box u--r--sb--s">
+                    <div class="u-r-c__sb__div1">
+                        <div class="u-r-c__sb__div2">
+                            <span>98%</span>
+                        </div>
+                        <svg>
+                            <circle/>
+                        </svg>
+                    </div>
+                    <h1>service</h1>
+                </div>
+                <div class="user-rating-content__single__box u--r--sb--t">
+                    <div class="u-r-c__sb__div1">
+                        <div class="u-r-c__sb__div2">
+                            <span>90%</span>
+                        </div>
+                        <svg>
+                            <circle/>
+                        </svg>
+                    </div>
+                    <h1>customisation</h1>
+                </div>
+                <div class="user-rating-content__single__box u--r--sb--ff">
+                    <div class="u-r-c__sb__div1">
+                        <div class="u-r-c__sb__div2">
+                            <span>97%</span>
+                        </div>
+                        <svg>
+                            <circle/>
+                        </svg>
+                    </div>
+                    <h1>behavior</h1>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <section id="feedblack">
+        <div class="container">
+            <div class="feedback-title">
+                <h1>send feedback</h1>
+                <p>message us for your valuable feedback and to know about us.</p>
+            </div>
+            <div class="feedback-content">
+                <form action="">
+                   
+                    <input type="text" placeholder="Your Name" id="name"><br>
+                   
+                    <input type="text" placeholder="Your Email"><br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea><br>
+                    <button>send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-block">
+                <div class="footer-content">
+                    <h1>our content</h1>
+                    <ul>
+                        <li>gadgut</li>
+                        <li>foods</li>
+                        <li>cosmetics</li>
+                        <li>cloths</li>
+                        <li>electronic devices</li>
+                    </ul>
+                </div>
+                <div class="footer-address">
+                    <h1>address</h1>
+                    <span>55 north drive <br>
+                        far rockaway,ny 11691
+                    </span>
+                </div>
+                <div class="footer-contact">
+                    <h1>contact us</h1>
+                    <span>epti060@gmail.com <br>
+                        eptita41@gamil.com <br>
+                        Facebook - @EptiNehal <br>
+                        Instagram - @eptinehal
+                    </span>
+                </div>
+                <div class="footer-rating">
+                    <h1>rating</h1>
+                    <span onclick="bad_on()">
+                        bad <br> 2<i class="fa-solid fa-star" id="bad_rating"></i> 
+                    </span>
+                    <span onclick="good_on()">
+                        good <br> 5<i class="fa-solid fa-star" id="good_rating"></i> 
+                    </span>
+                    <span onclick="very_good_on()">
+                        very good <br> 7<i class="fa-solid fa-star" id="very_good_rating"></i> 
+                    </span>
+                   
+                </div>
+                
+            </div>
+            <div class="footer-block-2">
+                <a href="http://www.facebook.com/EptiNehal">all ©copyright ate san epti </a>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var header__menu = document.getElementById("header__menu");
+    function showMenu(){
+        header__menu.style.left="0";
+    }
+    function hideMenu(){
+        header__menu.style.left="-100%"
+    }
+    var colloct_btn_1 = document.getElementById("colloct_btn_1");
+    var colloct_btn_2 = document.getElementById("colloct_btn_2");
+    var colloct_btn_3 = document.getElementById("colloct_btn_3");
+    function clicked(){
+        colloct_btn_1.style.background="transparent"
+        colloct_btn_1.style.color="#3c6382"
+       colloct_btn_1.style.fontWeight="600"
+
+    }
+    function clicked_2(){
+        colloct_btn_2.style.background="transparent"
+        colloct_btn_2.style.color="#3c6382"
+       colloct_btn_2.style.fontWeight="600"
+    }
+    function clicked_3(){
+        colloct_btn_3.style.background="transparent"
+        colloct_btn_3.style.color="#3c6382"
+        colloct_btn_3.style.fontWeight="600"
+    }
+    var bad_rating = document.getElementById("bad_rating");
+    function bad_on(){
+        bad_rating.style.color="#ffde59c9"
+    }
+    var good_ratign = document.getElementById("good_rating");
+    function good_on(){
+        good_ratign.style.color="#ffde59c9"
+    }
+    var very_good_rating = document.getElementById("very_good_rating");
+    function very_good_on(){
+        very_good_rating.style.color="#ffde59c9"
+    }
+</script>
+</html>
